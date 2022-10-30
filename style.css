@@ -1,0 +1,460 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+div {
+    animation-duration: 20s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+#escrita h1 {
+    padding-bottom: 0.5vw;
+    font-size: 2rem;
+    animation-delay: 5s;
+    animation-duration: 20s;
+    font-family: 'Open Sans', sans-serif;
+    animation-iteration-count: infinite;
+    float: left;
+    clear: both;
+    animation-name: texto;
+    transform: translate(7.5vw, -7.25vw);
+}
+
+#escrita p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    animation-delay: 5s;
+    animation-duration: 20s;
+    font-family: 'Open Sans', sans-serif;
+    animation-direction: initial;
+    animation-iteration-count: infinite;
+    float: left;
+    clear: both;
+    animation-name: texto1;
+    transform: translate(7.5vw, -8vw);
+}
+
+#pingo {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+    margin-bottom: 0.25vw;
+    margin-left: 0.25vw;
+    float: left;
+    background-color: #cd191e;
+    animation-name: pingo;
+}
+
+.blocos {
+    width: 2vw;
+    height: 2vw;
+    margin-bottom: 0.25vw;
+    margin-left: 0.25vw;
+    transform-origin: 50% 50%;
+    border-radius: 10%;
+    float: left;
+    background-color: #2f9e41;
+}
+
+.i {
+    clear: both;
+}
+
+.primeiro {
+    animation-name: primeiro;
+}
+
+.segundo {
+    animation-name: segundo;
+}
+
+.terceiro {
+    animation-name: terceiro;
+}
+
+.quarto {
+    animation-name: quarto;
+}
+
+.quinto {
+    animation-name: quinto;
+}
+
+.sexto {
+    animation-name: sexto;
+}
+
+.setimo {
+    animation-name: setimo;
+}
+
+.oitavo {
+    animation-name: oitavo;
+}
+
+.nono {
+    animation-name: nono;
+}
+
+@keyframes pingo {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        transform: translate(2.25vw, 0vw);
+    }
+
+    90% {
+        transform: translate(4.50vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes primeiro {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        transform: translate(0vw, 2.25vw);
+    }
+
+    90% {
+        transform: translate(-2.25vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes segundo {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        transform: translate(0vw, 2.25vw);
+    }
+
+    90% {
+        transform: translate(-2.25vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes terceiro {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        transform: translate(0vw, 2.25vw);
+    }
+
+    90% {
+        transform: translate(4.50vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes quarto {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        transform: translate(-2.25vw, 0vw);
+    }
+
+    90% {
+        transform: translate(-2.25vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes quinto {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        transform: translate(0vw, 2.25vw);
+    }
+
+    90% {
+        transform: translate(4.50vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes sexto {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    90% {
+        transform: translate(-2.25vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes setimo {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    90% {
+        transform: translate(-2.25vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes oitavo {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        transform: translate(2.25vw, 0vw);
+    }
+
+    90% {
+        transform: translate(4.50vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes nono {
+    0% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    50% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+
+    70% {
+        transform: translate(2.25vw, 0vw);
+    }
+
+    90% {
+        transform: translate(-2.25vw, 0vw);
+    }
+
+    100% {
+        margin-bottom: 0.25vw;
+        margin-left: 0.25vw;
+        float: left;
+        transform: translate(0vw, 0vw);
+    }
+}
+
+@keyframes texto {
+    0% {
+        font-size: 2rem;
+    }
+
+    50% {
+        font-size: 2rem;
+    }
+
+    70% {
+        font-size: 0rem;
+    }
+
+    90% {
+        font-size: 0rem;
+    }
+
+    100% {
+        font-size: 2rem;
+    }
+}
+
+@keyframes texto1 {
+    0% {
+        font-size: 1.5rem;
+    }
+
+    50% {
+        font-size: 1.5rem;
+    }
+
+    70% {
+        font-size: 0rem;
+    }
+
+    90% {
+        font-size: 0rem;
+    }
+
+    100% {
+        font-size: 1.5rem;
+    }
+}
